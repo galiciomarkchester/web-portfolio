@@ -1,0 +1,121 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-header {
+	text-align: center;
+	border-top: double;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+hr {
+	border-style: double;
+}
+
+/* ====================
+  Intro Section
+=======================*/
+.jumbotron {
+	background: url(../images/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	color: white;
+	text-align: center;
+	width: auto;
+}
+.intro-content	{
+	padding-top: 10%;
+	vertical-align: center;
+	text-align: center;
+	font-family: 'Shojumaru', cursive;
+	font-family: 'Limelight', cursive;
+}
+	
+
+/* ====================
+  About Section
+=======================*/
+.btn-contact {
+	border-radius: 50px;
+	padding: 5px;
+}
+
+.about-body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* ====================
+  Projects Section
+=======================*/
+.capstone1 {
+	vertical-align: center;
+}
+
+.card {
+	text-align: center
+}
+
+.card-img-top {
+	height: 250px;
+}
+
+/* ====================
+  Skills Section
+=======================*/
+#section-skills {
+	padding 0 auto;
+}
+
+/*##### SKILLS SECTION #####*/
+.technologies-icon {
+        width: 8%;
+        height: 8%;
+        margin: 2px;
+    }
+
+/* ====================
+  Contact Section
+=======================*/
+
+/* ====================
+  Footer Section
+=======================*/
+footer {
+	height: 10vh;
+}
+
+footer h5 {
+	padding-top: 12px;
+	font-family: 'Amatic SC', cursive;
+}
+/*
+  Media Queries)
+*/
+
+@media only screen and (max-width: 575px) {
+
+.display-2 {
+	font-size: 2.5rem;
+	margin: auto;
+}
+
+#home h2 {
+	font-size: 1.2rem;
+	margin: auto;
+} 
+
+.intro-content {
+	margin-top: 40px;
+	padding-top: 50px;
+	font-size: 1.2rem;
+}
+
+
+}
